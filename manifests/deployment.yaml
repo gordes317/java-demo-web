@@ -5,7 +5,7 @@ metadata:
   name: java-web01
   namespace: default
 spec:
-  replicas: 1
+  replicas: 3
   # 在定义模板的时候必须定义labels,因为Deployment.spec.selector是必须字段,而他又必须和template.labels对应
   selector:
     matchLabels:
