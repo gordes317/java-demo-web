@@ -9,6 +9,6 @@ spec:
     app: java-web01
   ports:
   - name: http
-    nodePort: 23602
+    nodePort: 31602
     port: 8888
     targetPort: 8888
